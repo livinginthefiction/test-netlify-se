@@ -1,0 +1,7 @@
+{
+  "schema":["\r\n{\r\n  \"@context\": \"https:\/\/schema.org\/\",\r\n  \"@type\": \"Product\",\r\n  \"image\": \"https:\/\/symbioenergy.co.uk\/backend\/assets\/uploads\/Residential-slider-1.jpg\",\r\n  \"name\": \"Symbio Energy\",\r\n  \"review\": {\r\n    \"@type\": \"Review\",\r\n    \"reviewRating\": {\r\n      \"@type\": \"Rating\",\r\n      \"ratingValue\": \"4.6\"\r\n    },\r\n    \"name\": \"Home Energy Supply\",\r\n    \"author\": {\r\n      \"@type\": \"Person\",\r\n      \"name\": \"Jane Lamb\"\r\n    },\r\n    \"datePublished\": \"2020-12-12\",\r\n    \"reviewBody\": \"Symbio are by far the cheapest on the market so having to give a monthly meter reading is a small job for the big saving.I would highly recommend them.They estimate your usage in advance based on what you quoted originally .Very happy customer \u00a3\u00a3\u00a3\u00a3\",\r\n    \"publisher\": {\r\n      \"@type\": \"Organization\",\r\n      \"name\": \"Energy Supplier\"\r\n    }\r\n  }\r\n}"],
+    "metakey":"Residence",
+    "metatags":"Residence",
+    "metatitle":"Symbio Energy | 100% Green Residential Energy at Low Prices",
+    "metadescription":"Offering Low and Fair Prices for Green Energy. Switch Today & Save up to £600 on Domestic Electricity while being Environmentally Conscience."
+ }

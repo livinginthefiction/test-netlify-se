@@ -1,0 +1,207 @@
+import React from 'react' 
+
+function CompGas() {
+    return (
+        <>
+        <section className="p-1 p-lg-5 p-xl-5 py-5 pull-left">
+    <h1 className="font-weight-bolder text-center text-capitalize text-dark font-family-san-serif font-size-3pt5rem px-3 mb-3">Symbio Gas</h1>
+    <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 pull-left movingImg pt-5">
+        <img src="../images/slider-img/symbio-revolution.jpg" alt="" className="w-100" />
+    </div>
+    <div className="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 pull-left pt-5">
+        <div className="clearfix col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark">
+            <p>
+                Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section className="px-1 px-lg-5 px-xl-5 py-5 pull-left w-100">
+    <h1 className="font-weight-bolder text-center text-capitalize text-dark font-family-san-serif font-size-3pt5rem px-3 mb-3">Winter is coming</h1>
+</section>
+
+<div className="col-12 col-xl-12 p-0">
+    <canvas id="winterComing" className="canvasSize"></canvas>
+</div>
+<section className="px-1 px-lg-5 px-xl-5 pb-5">
+    <div className="d-flex flex-column justify-content-center">
+        <div className="align-items-center flex-basis-0 flex-column flex-grow-1 flex-shrink-0 justify-content-center p-2 p-sm-4 p-xl-5">
+            <div className="clearfix col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-dark">
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div className="d-flex justify-content-center py-4">
+                <div className="buttonRect">
+                    <svg viewBox="0 0 140 60" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" style={{enableBackground:"new 0 0 140 60"}} >
+                        <defs>
+                            <linearGradient id="id-light-gas-page" x1="0" y1="0.8" x2="1" y2="0.2" spreadMethod="pad">
+                                <stop offset="0" stopColor="rgba(244, 78, 58, 1)" stopOpacity="1"></stop>
+                                <stop offset="10%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="0"></stop>
+                                <stop offset="90%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="0"></stop>
+                                <stop offset="100%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="1"></stop>
+                            </linearGradient>
+                            <filter id="id-glow-gas-page" x="-40%" y="-40%" width="180%" height="180%">
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="4" result="coloredBlur"></feGaussianBlur>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <g filter="url(#id-glow-gas-page)">
+                            <path className="border" width="100%" height="100%" fill="transparent" stroke="rgba(244, 78, 58, 0.3)" strokeWidth="1" d="M134.9,37.4c0,9.4-7.6,16.9-16.9,16.9H36.7H6.9V35.8V23.1c0-9.4,7.6-16.9,16.9-16.9h82.9h28.2v18.8V37.4z"></path>
+                            <path className="light" width="100%" height="100%" fill="transparent" stroke="url(#id-light-gas-page)" strokeWidth="2" d="M134.9,37.4c0,9.4-7.6,16.9-16.9,16.9H36.7H6.9V35.8V23.1c0-9.4,7.6-16.9,16.9-16.9h82.9h28.2v18.8V37.4z"></path>
+                           
+                        </g>
+                    </svg>
+                    <a className="link_button" href="#">Get Quote</a>
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+<section className="px-1 px-lg-5 px-xl-5 py-5">
+    <h1 className="font-weight-bolder text-center text-capitalize text-dark font-family-san-serif font-size-3pt5rem px-3 mb-3">Unlimited culinary experiments</h1>
+</section>
+
+<div className="col-12 col-xl-12 p-0 Background">
+    <canvas className="Background-canvas canvasSize"></canvas>
+</div>
+
+ 
+
+<section className="px-1 px-lg-5 px-xl-5 pb-5">
+    <div className="d-flex flex-column justify-content-center">
+        <div className="align-items-center flex-basis-0 flex-column flex-grow-1 flex-shrink-0 justify-content-center p-2 p-sm-4 p-xl-5">
+            <div className="clearfix col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center text-dark">
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div className="d-flex justify-content-center py-4">
+                <div className="buttonRect">
+                    <svg viewBox="0 0 140 60" version="1.1" xmlns="http://www.w3.org/2000/svg"   x="0px" y="0px" style={{enableBackground:"new 0 0 140 60"}} >
+                        <defs>
+                            <linearGradient id="id-light-gas-page1" x1="0" y1="0.8" x2="1" y2="0.2" spreadMethod="pad">
+                                <stop offset="0" stopColor="rgba(244, 78, 58, 1)" stopOpacity="1"></stop>
+                                <stop offset="10%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="0"></stop>
+                                <stop offset="90%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="0"></stop>
+                                <stop offset="100%" stopColor="rgba(244, 78, 58, 1)" stopOpacity="1"></stop>
+                            </linearGradient>
+                            <filter id="id-glow-gas-page1" x="-40%" y="-40%" width="180%" height="180%">
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix>
+                                <feGaussianBlur stdDeviation="4" result="coloredBlur"></feGaussianBlur>
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur"></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <g filter="url(#id-glow-gas-page1)">
+                            <path className="border" width="100%" height="100%" fill="transparent" stroke="rgba(244, 78, 58, 0.3)" strokeWidth="1" d="M134.9,37.4c0,9.4-7.6,16.9-16.9,16.9H36.7H6.9V35.8V23.1c0-9.4,7.6-16.9,16.9-16.9h82.9h28.2v18.8V37.4z"></path>
+                            <path className="light" width="100%" height="100%" fill="transparent" stroke="url(#id-light-gas-page1)" strokeWidth="2" d="M134.9,37.4c0,9.4-7.6,16.9-16.9,16.9H36.7H6.9V35.8V23.1c0-9.4,7.6-16.9,16.9-16.9h82.9h28.2v18.8V37.4z"></path>
+                        
+                        </g>
+                    </svg>
+                    <a className="link_button" href="#">Get Quote</a>
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+
+<section className="p-1 p-lg-5 p-xl-5 py-5">
+    <h1 className="font-weight-bolder text-center text-capitalize text-dark font-family-san-serif font-size-3pt5rem px-3 mb-3">Briton got talent</h1>
+
+    <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center">
+        <div className="align-items-center flex-basis-0 flex-grow-1 flex-shrink-0 justify-content-center py-5 text-center">
+            <img src="../images/slider-img/symbio-revolution.jpg" alt="" className="img-rect"/>
+        </div>
+        <div className="align-items-center flex-basis-0 flex-column flex-grow-1 flex-shrink-0 justify-content-center p-2 p-sm-4 p-xl-5">
+            <div className="clearfix col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-dark">
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+<section className="p-1 p-lg-5 p-xl-5 py-5">
+    <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center">
+        <div className="align-items-center justify-content-center text-center py-5">
+            <img src="../images/get-quote-desktop.png" alt="" className="d-lg-inline-flex d-none d-xl-inline-flex img-rect"/>
+            <img src="../images/get-quote-mobile.png" alt="" className="d-inline-flex d-lg-none d-xl-none w-50"/>
+        </div>
+        <div className="align-items-center d-flex flex-column justify-content-center p-2 p-sm-4 p-xl-5">
+            <h4 className="mb-5 text-center">Find a plan that suits you by entering your postcode.</h4>
+            <div className="d-flex getQuote-text justify-content-around">
+                <input type="text" placeholder="Pin code" className="pincode-text"/>
+                <a className="buttonCanvas" href="#">Get a Quote</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section className="py-5">
+    <h1 className="font-family-san-serif font-size-3pt5rem font-weight-bolder mb-5 text-center text-capitalize text-dark px-3">
+        Our Promises</h1>
+    <div className="clearfix col-12 col-sm-12 col-md-12 col-lg-10 col-xl-9 m-auto our_promises text-dark">
+        <div className="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 float-left p-2 pb-4 pb-sm-2 pb-md-2 pb-lg-2 pb-xl-2 text-center">
+                    <img src="../images/wax-seal.png" className="mb-3"/>
+                    <p>100% Green</p>
+                </div>
+                <div className="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 float-left p-2 pb-4 pb-sm-2 pb-md-2 pb-lg-2 pb-xl-2 text-center">
+                    <img src="../images/wax-seal-1.png" className="mb-3"/>
+                    <p>Low & fair prices</p>
+                </div>
+                <div className="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 float-left p-2 pb-4 pb-sm-2 pb-md-2 pb-lg-2 pb-xl-2 text-center">
+                    <img src="../images/wax-seal-2.png" className="mb-3"/>
+                    <p>Price Guarantee</p>
+                </div>
+                <div className="col-6 col-lg-3 col-md-3 col-sm-6 col-xl-3 float-left p-2 pb-4 pb-sm-2 pb-md-2 pb-lg-2 pb-xl-2 text-center">
+                    <img src="../images/wax-seal-3.png" className="mb-3"/>
+                    <p>Mutual Partnership</p>
+                </div>
+        </div>
+</section>
+        </>
+    )
+}
+
+ 
+
+export default CompGas
+

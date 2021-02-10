@@ -1,0 +1,78 @@
+.contact .movingImg {
+  position: static;
+}
+
+@media screen and (min-width: 992px){
+  .contact .movingImg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+  }
+  .contact .padding-left-responsive{padding-left: 7rem !important;}
+}
+
+.contact .img-rect {
+  width: 480px;
+}
+
+.contact .our_promises img {
+  height: auto;
+  width: 25vw;
+  max-width: 140px;
+}
+.contact .our_promises2 img {
+  height: auto;
+  width: 10vw;
+  max-width: 60px;
+}
+
+@media screen and (max-width: 576px) {
+
+  .contact .our_promises div, .our_promises2 div{
+    flex: 1 1 100% !important;
+  }
+  .contact .img-rect {
+    width: 90%;
+  }
+  
+  }
+
+  .contact .contact-us-form {
+  border: 5px solid #59BAB0;
+}
+.contact .contact-us-form ul {
+  float: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact .contact-us-form li {
+  float: left;
+  margin: 10px;
+  min-height: 60px;
+  font-size: 1.5rem;
+}
+.contact .contact-us-form li input[type="text"], .contact .contact-us-form li input[type="email"],.contact .contact-us-form li input[type="tel"], .contact .contact-us-form li select {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  outline: none;
+  max-width: 330px;
+}
+.contact .contact-us-form li select option {
+  color: #000;
+}
+.contact .min-height-200{
+  min-height: 200px;
+}
+.contact .contact-icon {
+  width: 64px;
+  height: 64px;
+}
+@media screen and (max-width: 576px) {
+  .contact .contact-us-form ul {width: 100%;}
+  .contact .contact-us-form li {margin: 5px;min-height: 30px;font-size: 1.4rem;width: 100%;text-align: center;}
+  .contact .contact-us-form li input[type="text"], .contact .contact-us-form li input[type="email"], .contact .contact-us-form li input[type="tel"], .contact .contact-us-form li select {
+    max-width: 280px;text-align: center;}
+}

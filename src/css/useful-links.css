@@ -1,0 +1,13 @@
+.useful .case-study-left-padding{padding-left: 16px; padding-right: 16px;}
+.useful .movingImg {
+  position: static;
+}
+
+@media screen and (min-width: 992px){
+ .useful .case-study-left-padding{padding-left: 7rem;}
+ .useful .movingImg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+  }
+}

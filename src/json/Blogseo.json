@@ -1,0 +1,9 @@
+{
+  "schema": [
+    "{\r\n    \"@context\": \"https://schema.org\",\r\n    \"@type\": \"WebPage\",\r\n    \"breadcrumb\": \"Books > Marketing > LONGTEXT \",\r\n    \"mainEntity\": {\r\n        \"@type\": \"Book\",\r\n        \"author\": \"http://www.example.com/author.html\",\r\n        \"bookFormat\": \"http://schema.org/EBook\",\r\n        \"datePublished\": \"2015-05-01\",\r\n        \"image\": \"coverImage.jpg\",\r\n        \"inLanguage\": \"English\",\r\n        \"isbn\": \"00000000\",\r\n        \"name\": \"The Title of Book\",\r\n        \"numberOfPages\": \"123433\",\r\n        \"offers\": {\r\n            \"@type\": \"Offer\",\r\n            \"availability\": \"http://schema.org/InStock\",\r\n            \"price\": \"9.99\",\r\n            \"priceCurrency\": \"USD\"\r\n        },\r\n        \"publisher\": \"O'LONGTEXT  Publishing\",\r\n        \"aggregateRating\": {\r\n            \"@type\": \"AggregateRating\",\r\n            \"ratingValue\": \"4\",\r\n            \"reviewCount\": \"12\"\r\n        }\r\n    }\r\n}"
+  ],
+    "metakey":"Blog",
+    "metatags":"Blog",
+    "metatitle":"Blog - Social Change, Education and Commerce - Symbio Energy UK",
+    "metadescription":"Symbio Energy's Core attributes include Change, Education & commerce. Now providing 100% green energy at Lowest price in the UK."
+ }

@@ -1,0 +1,325 @@
+.history .wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.history .flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history .pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none.pad-top-none {
+  padding-top: 0 !important;
+}
+.history .w66.w66.w66 {
+  max-width: 905px;
+}
+.history .flex {
+  flex: 1 0 0;
+  margin: 0 16px;
+}
+.history .center-margin {
+  margin: 0 auto;
+}
+.history .pad-xxl {
+  padding: 80px;
+}
+.history .navy-text, .history .fieldset p a, .history .fieldset li a, .history .fieldset p strong, .history .fieldset li strong {
+    color: #fff;
+    color: var(--white);
+}
+.history .timeline-wrapper {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0px, black 100px, black calc(100% - 100px), transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0px, black 100px, black calc(100% - 100px), transparent 100%);
+  position: relative;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.history .timeline-wrapper--history {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.history .timeline-block {
+  position: relative;
+  width: 100%;
+}
+.history .pad {
+  box-sizing: border-box;
+  padding: 32px;
+}
+.history .pad-xl {
+  padding: 64px;
+}
+.history .timeline-date {
+  position: absolute;
+  text-align: right;
+  width: 50%;
+}
+.history .timeline-date {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px;
+}
+.history .timeline-date--right {
+  left: 50%;
+  text-align: left;
+}
+.history h2, .history .h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 24px;
+}
+.history .xxl {
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 185px;
+  margin-bottom: 0;
+}
+.history .dark-navy h1, .history .dark-navy h2, .history .dark-navy h3, .history .dark-navy h4, .history .dark-navy h5 {
+  color: #fff;
+  color: var(--white);
+}
+.history .pad > *:last-child {
+  margin-bottom: 0;
+}
+.history .timeline-item-wrap {
+  padding-bottom: 40px;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.history .timeline-item--right {
+  flex-direction: row-reverse;
+}
+.history .pad-bottom-xxs.pad-bottom-xxs {
+  padding-bottom: 12px;
+}
+.history .timeline-wrapper--history .timeline-item-wrap:nth-child(2) {
+  margin-top: -252px;
+}
+.history .grey {
+  background: #041a72;
+}
+.history .flip-navy, .history .flip-blue, .history .flip-dark-navy {
+  border-bottom: 1px solid transparent;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.history .rounded-small {
+  border-radius: 4px;
+}
+.history .timeline-item {
+  flex: 0 0 calc(50% - 50px);
+  max-width: calc(50% - 50px);
+}
+.history .page-loaded--finished .flip-navy, .history .page-loaded--finished .flip-blue, .history .page-loaded--finished .flip-dark-navy {
+  transition: color 750ms cubic-bezier(0.25, 0.01, 0.25, 1), border-color 750ms cubic-bezier(0.25, 0.01, 0.25, 1), background-color 750ms cubic-bezier(0.25, 0.01, 0.25, 1) !important;
+}
+.history .night-mode .flip-navy {
+  background-color: #001B63;
+  color: #fff;
+  color: var(--white);
+}
+.history .night-mode .flip-navy.rounded, .history .night-mode .carousel-cell img.flip-navy, .history .carousel-cell .night-mode img.flip-navy, .history .night-mode .flip-navy.rounded-small {
+  border-bottom: 1px solid transparent;
+}
+.history h3, .history .h3, .history input.postcode.postcode--address.h3, .history input.postcode.postcode--address.h3 ~ .auto-grow-mirror {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.history .dark-navy h1, .history .dark-navy h2, .history .dark-navy h3, .history .dark-navy h4, .history .dark-navy h5 {
+  color: #fff;
+  color: var(--white);
+}
+.history .page-loaded--finished .flip-navy *, .history .page-loaded--finished .flip-navy *::placeholder, .history .page-loaded--finished .flip-navy *:before, .history .page-loaded--finished .flip-navy *:after, .history .page-loaded--finished .flip-blue *, .history .page-loaded--finished .flip-blue *::placeholder, .history .page-loaded--finished .flip-blue *:before, .history .page-loaded--finished .flip-blue *:after, .history .page-loaded--finished .flip-dark-navy *, .history .page-loaded--finished .flip-dark-navy *::placeholder, .history .page-loaded--finished .flip-dark-navy *:before, .history .page-loaded--finished .flip-dark-navy *:after {
+  transition: color 750ms cubic-bezier(0.25, 0.01, 0.25, 1), border-color 750ms cubic-bezier(0.25, 0.01, 0.25, 1), border 750ms cubic-bezier(0.25, 0.01, 0.25, 1), fill 750ms cubic-bezier(0.25, 0.01, 0.25, 1), opacity 750ms cubic-bezier(0.25, 0.01, 0.25, 1), background-color 750ms cubic-bezier(0.25, 0.01, 0.25, 1);
+}
+.history .night-mode .flip-navy h1, .history .night-mode .flip-navy h2, .history .night-mode .flip-navy h3, .history .night-mode .flip-navy h4, .history .night-mode .flip-navy h5 {
+  color: #fff;
+  color: var(--white);
+}
+p, li, td {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.history p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history li, .history td, .history h5:not(.navy-text):not(.grey-text) {
+  color: #fff;
+  color: var(--white);
+}
+.history .navy p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history .dark-navy p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history .page-header p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history .night-mode .flip-navy p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history .night-mode .flip-dark-navy p:not(.grey-text):not(.button):not(.white-text):not(.green-text), .history .navy li, .history .dark-navy li, .history .page-header li, .history .night-mode .flip-navy li, .history .night-mode .flip-dark-navy li, .history .navy td, .history .dark-navy td, .history .page-header td, .history .night-mode .flip-navy td, .history .night-mode .flip-dark-navy td, .history .navy h5:not(.navy-text):not(.grey-text), .history .dark-navy h5:not(.navy-text):not(.grey-text), .history .page-header h5:not(.navy-text):not(.grey-text), .history .night-mode .flip-navy h5:not(.navy-text):not(.grey-text), .history .night-mode .flip-dark-navy h5:not(.navy-text):not(.grey-text) {
+  color: #D8DFF3;
+}
+.history .underline {
+  text-decoration: underline;
+  transition: color 150ms cubic-bezier(0.25, 0.01, 0.25, 1);
+  color:#59BAB0;
+  color: var(--emerald-green);
+}
+/* a:not(.button):not([href="#"]) {
+  text-decoration: underline;
+} */
+.history .night-mode .flip-dark-navy a:not(.button), .history .night-mode .flip-dark-navy .grey-text, .history .night-mode .flip-navy a:not(.button), .history .night-mode .flip-navy .grey-text, .history .night-mode .flip-navy .navy-text, .history .night-mode .flip-navy .fieldset p a, .history .fieldset p .night-mode .flip-navy a, .history .night-mode .flip-navy .fieldset li a, .history .fieldset li .night-mode .flip-navy a, .history .night-mode .flip-navy .fieldset p strong, .history .fieldset p .night-mode .flip-navy strong, .history .night-mode .flip-navy .fieldset li strong, .history .fieldset li .night-mode .flip-navy strong {
+  color: #fff;
+  color: var(--white);
+}
+.history .pad-mega {
+  padding: 120px;
+}
+.history .timeline-date h2{
+  color: #fff;
+  color: var(--white);
+}
+
+@media (max-width: 1680px){
+  .history .pad-xl {
+    padding: 32px;
+}
+.history .pad-xxl {
+  padding: 64px;
+}
+.history h2, .history .h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+.history .xxl {
+  font-size: 80px;
+  line-height: 140px;
+}
+.history .timeline-wrapper--history .timeline-item-wrap:nth-child(2) {
+  margin-top: -150px;
+}
+.history h3, .history .h3, .history input.postcode.postcode--address.h3, .history input.postcode.postcode--address.h3 ~ .auto-grow-mirror {
+  font-size: 18px;
+  line-height: 24px;
+}
+.history p, .history li, .history td {
+  font-size: 14px;
+  line-height: 22px;
+}
+.history .pad-mega {
+  padding: 64px;
+}
+
+}
+@media (max-width: 650px){
+  .history .wrapper {
+    margin-left: 24px !important;
+    margin-right: 24px !important;
+}
+.history .flex-wrap {
+  display: block;
+}
+.history .flex {
+  margin: 0;
+}
+.history body:not(.osu-page) .pad:not(.pad-menu):not(.dog-ear):not(.carousel-cell):not(.carousel-cell):not(.timeline-item):not(.rounded):not(.accordian-inner), .pad-xl:not(.dog-ear):not(.carousel-cell):not(.carousel-cell):not(.timeline-item):not(.rounded):not(.accordian-inner), .history .pad-mega, .history .pad-xxl {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.history .timeline-wrapper {
+  padding-bottom: 40px;
+  padding-top: 64px;
+}
+.history .timeline-date {
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+.history h2, .history .h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.history .xxl {
+  font-size: 56px;
+  line-height: 72px;
+  margin-bottom: 16px;
+}
+.history .timeline-item-wrap {
+  display: block;
+}
+.history .timeline-wrapper--history .timeline-item-wrap:nth-child(2) {
+  margin-top: 0;
+}
+.history .timeline-item {
+  padding: 24px;
+}
+.history .timeline-item {
+  float: none !important;
+  width: 100%;
+  flex: none;
+  max-width: none;
+}
+
+
+}
+
+/*SVG running*/
+.history .svgs {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+.history .svg {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: -1;
+}
+.history .svg--mobile {
+  width: 320px;
+  height: 15299px;
+}
+.history .svg--tablet {
+  display: none;
+  top: 2px;
+  width: 768px;
+  height: 14296px;
+}
+.history .svg--desktop {
+  display: none;
+  width: 1024px;
+  height: 18298px;
+}
+@media (min-width: 768px){
+  .history .svg--mobile {
+    display: none;
+}
+}
+@media (max-width: 1023px) and (min-width: 768px){
+  .history .svg--tablet {
+    display: block;
+}
+}
+@media (min-width: 1024px){
+  .history .svg--desktop {
+    display: block;
+}
+}
+@media (min-width: 1280px){
+  .history .svgs::before {
+    display: block;
+    content: '';
+    position: static;
+    flex: 1 1 100%;
+    min-width: 256px;
+    /* max-width: 400px; */
+    max-width: 310px;
+}
+.history .svgs__inner {
+  /* flex: 1 1 100%; */
+  min-width: 1024px;
+  position: relative;
+}
+
+}

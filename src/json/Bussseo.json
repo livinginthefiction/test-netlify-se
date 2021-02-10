@@ -1,0 +1,9 @@
+{
+    "schema":[
+        "{\r\n    \"@context\": \"https://www.schema.org\",\r\n    \"@type\": \"LocalBusiness\",\r\n    \"name\": \"Symbio Energy\",\r\n    \"url\": \"https://www.symbioenergy.co.uk/\",\r\n    \"sameAs\": [\r\n        \"https://www.facebook.com/SymbioEnergy\",\r\n        \"https://twitter.com/SymbioEnergy\",\r\n        \"https://www.linkedin.com/company/symbioenergy/\"\r\n    ],\r\n    \"logo\": \"https://www.symbioenergy.co.uk/wp-content/uploads/2020/03/SE-New-Logo.png\",\r\n    \"image\": \"https://symbioenergy.co.uk/backend/assets/uploads/Residential-slider-1.jpg\",\r\n    \"description\": \"Symbio Energy is the Lowest Electricity Supplier in the UK. Provide 100%  green energy at competative price.\",\r\n    \"address\": {\r\n        \"@type\": \"PostalAddress\",\r\n        \"streetAddress\": \"103 Mansion Building Research Establishment, Bucknalls Ln\",\r\n        \"addressLocality\": \"Watford \",\r\n        \"addressRegion\": \"Hertfordshire\",\r\n        \"postalCode\": \"WD25 9XX\",\r\n        \"addressCountry\": \"United Kingdom\",\r\n        \"telephone\": \"03330509372\"\r\n    },\r\n    \"geo\": {\r\n        \"@type\": \"GeoCoordinates\",\r\n        \"latitude\": \"51.70557339788726\",\r\n        \"longitude\": \"-0.3743181932581195\"\r\n    },\r\n    \"hasMap\": \"https://www.google.com/maps/place/Symbio+Energy+Ltd/@51.7055488,-0.3665511,14.75z/data=!4m5!3m4!1s0x48763fac9fa51e5f:0x65d0e1f8c4a99fbe!8m2!3d51.7005663!4d-0.3743055\",\r\n    \"openingHours\": \"Mo 09:00-18:00 Tu 09:00-18:00 We 09:00-18:00 Th 09:00-18:00 Fr 09:00-18:00 Sa 09:00-15:00\"\r\n}"
+     ],
+    "metakey":"Business",
+    "metatags":"Business",
+    "metatitle":"Symbio Business Energy | Save Up to £1000s on your Business Electricity",
+    "metadescription":"Offering Lowest Prices for Business Energy since March 2019. Saving UK Businesses Millions of Pounds on Electricity."
+ }

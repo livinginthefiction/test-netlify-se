@@ -1,0 +1,215 @@
+/*Switch*/
+.dual .switch-button,.dual .switch-button.btn:hover, .dual .switch-button.btn:focus, .dual .switch-button.collapsed.btn:hover{
+    color: #50c878;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #50c878;
+    border-radius: 0;
+  }
+  .dual .switch-button svg path, .dual .switch-button.collapsed.btn:hover svg path{
+    fill: #50c878;
+  }
+  .dual .switch-button.collapsed {
+    color: #aaa;
+    border-bottom: 2px solid transparent;
+  }
+  .dual .switch-button.collapsed svg path{
+    fill: #aaa;
+  }
+  .dual .switch-button svg{
+    width: 50px;
+    height: 50px;
+  }
+  .dual .flex-basis-0{
+    flex-basis: 0;
+  }
+  .dual .ul-arrow li {
+    padding: 0.5rem 0 0.5rem 3rem;
+    position: relative;
+}
+.dual .ul-arrow li img.inline-image {
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (min-width: 992px){
+  .dual .padding-left-responsive{padding-left: 7rem !important;}
+}
+
+@media (max-width: 580px){
+  .dual .switch-button.btn h6{
+    font-size: .8rem;
+  }
+  /* .switch-button svg{
+    display: none;
+  } */
+}
+
+/*Get quoute button*/
+.dual .buttonCanvas canvas {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.dual .buttonCanvas {
+  background: none;
+  padding: 20px;
+  border-radius: 50px;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  z-index: 2;
+  font-weight: 100;
+  letter-spacing: 1px;
+  max-width: 259px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.dual .buttonCanvas:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.dual input.pincode-text {
+  height: 70px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(244, 78, 58, 0.7);
+  padding: 1rem;
+  color: #fff;
+  padding: 20px;
+  width: 50%;
+  outline: none;
+}
+
+.dual .img-rect {
+  width: 480px;
+}
+
+@media (max-width: 510px){
+  .dual .getQuote-text {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dual .getQuote-text input[type="text"] {
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+}
+}
+
+.dual .our_promises img {
+  height: auto;
+  width: 25vw;
+  max-width: 140px;
+}
+.dual .our_promises2 img {
+  height: auto;
+  width: 10vw;
+  max-width: 60px;
+}
+
+@media screen and (max-width: 576px) {
+
+  .dual .our_promises div, .dual .our_promises2 div{
+    flex: 1 1 100% !important;
+  }
+  .dual .img-rect {
+    width: 90%;
+  }
+  
+  }
+
+  .dual .movingImg {
+    position: static;
+  }
+  
+  @media screen and (min-width: 992px){
+    .dual .movingImg {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 120px;
+    }
+  }
+
+/*on off dot*/
+.dual .on-off-drop .signal-name.text-on {
+  color: #66ec00;
+}
+.dual .on-off-drop .signal-name.text-off{
+  color: #d50000;
+}
+.dual .on-off-drop .signal-dot {
+  width: 10px;
+  height: 10px;
+  margin-left: 14px;
+  border-radius: 50px;
+}
+.dual .on-off-drop .signal-dot.on {
+  background-color: #4eef28;
+  box-shadow: 0 0 10px 2px #4eef28;
+}
+.dual .on-off-drop .signal-dot.off {
+  background-color: #d50000;
+  box-shadow: 0 0 10px 2px #d50000;
+}
+.dual .on-off-drop .signal-drop{
+  border: 1px solid rgba(69, 114, 211, 0.3);
+  min-width: 240px;
+  left: 0;
+  opacity: 0;
+}
+.dual .on-off-drop:hover .signal-drop{
+  animation: signalDropdown 1s ease-in-out 1 forwards;
+}
+.dual .on-off-drop .signal-drop h5{
+  border-bottom: 1px solid rgba(69, 114, 211, 0.3);
+}
+
+@keyframes signalDropdown{
+  from{
+  opacity: 0;
+  }
+  to{
+  opacity: 1;
+  }
+} 
+
+@media (max-width: 499px) {
+
+  .dual .on-off-drop{
+    padding: 2rem 1rem !important;
+    width: 100%;
+    margin: 0 !important;
+    align-items: flex-start !important;
+}
+.dual .on-off-drop .signal-drop{
+  opacity: 1;
+  right: 0;
+  left: auto;
+  position: relative !important;
+  width: 100%;
+  margin-top: 20px !important;
+}
+.dual .starbot__speechbubble {
+  font-size: 20px;
+}
+.dual .starbot__cta-button {
+    margin-left: 70px;
+}
+}
+
+/*Blink text*/
+.dual .blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

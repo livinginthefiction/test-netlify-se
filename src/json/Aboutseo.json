@@ -1,0 +1,9 @@
+{
+  "schema": [
+    "{\r\n    \"@context\": \"https://schema.org\",\r\n    \"@type\": \"WebPage\",\r\n    \"breadcrumb\": \"Books > Marketing > JSON\",\r\n    \"mainEntity\": {\r\n        \"@type\": \"Book\",\r\n        \"author\": \"http://www.example.com/author.html\",\r\n        \"bookFormat\": \"http://schema.org/EBook\",\r\n        \"datePublished\": \"2015-05-01\",\r\n        \"image\": \"https://www.symbioenergy.co.uk/static/media/symbio-logo-2.f31ae3c2.png\",\r\n        \"inLanguage\": \"English\",\r\n        \"isbn\": \"00000000\",\r\n        \"name\": \"The Title of Book\",\r\n        \"numberOfPages\": \"123433\",\r\n        \"offers\": {\r\n            \"@type\": \"Offer\",\r\n            \"availability\": \"http://schema.org/InStock\",\r\n            \"price\": \"9.99\",\r\n            \"priceCurrency\": \"USD\"\r\n        },\r\n        \"publisher\": \"O'Json Publishing\",\r\n        \"aggregateRating\": {\r\n            \"@type\": \"AggregateRating\",\r\n            \"ratingValue\": \"4\",\r\n            \"reviewCount\": \"12\"\r\n        }\r\n    }\r\n}"
+  ],
+    "metakey":"About Us",
+    "metatags":"About Us",
+    "metatitle":"About Symbio Energy | UK's Lowest Electricity Provider",
+    "metadescription":"Pay only for the electricity you consume. An Energy Supplier with a Green-conscience supplying 100% Green Energy at no extra costs."
+ }

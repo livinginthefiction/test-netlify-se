@@ -1,0 +1,47 @@
+/* bx-wrapper Styling */
+.guide .bx-wrapper {
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+  margin: auto !important;
+}
+/* .bx-wrapper .bx-caption {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background: rgba(80, 80, 80, 0.5) !important;
+  width: 100% !important;
+  
+} */
+/* .bx-wrapper .bx-caption span {
+  color: #fff !important;
+  font-family: Arial !important;
+  display: block !important;
+  font-size: 8px !important;
+  padding: 10px !important;
+  text-align: center;
+} */
+.guide .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  margin-top: 10px;
+  top: 100%;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+.guide .bx-wrapper .bx-pager{display: none;}
+.guide .bx-wrapper .bx-prev {
+  left: 0;
+  background: url(../images/controls.png) no-repeat 0 -32px;
+}
+.guide .bx-wrapper .bx-next {
+  left: 40px;
+  background: url(../images/controls.png) no-repeat -43px -32px;
+}
+.guide .guide-left-padding{padding-left: 16px; padding-right: 16px;}
+
+@media screen and (min-width: 992px){
+  .guide .guide-left-padding{padding-left: 15rem; padding-right: 0;}
+}
